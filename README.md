@@ -35,12 +35,12 @@ Edit their speed values and test to see how it looks. Drag all three animals int
 
 ## Program:
 
-NAME : KAVIYA SHREE S
-REG NO: 212222110018
+NAME : ARUN KUMAR SUKDEV CHAVAN
+REG NO: 212222230013
 
 ## PROGRAM CONTROLLER:
 
-
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -77,10 +77,10 @@ public class planecontroller : MonoBehaviour
         }
     }
 }
-
+```
 
 ## MOVE FORWARD:
-
+```
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -100,7 +100,7 @@ public class moveforward : MonoBehaviour
         transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
-
+```
 
 ## Output:
 ![image](https://github.com/arunkumarsukdevchavan/Animal-feeding-Phase-I/assets/118343978/de22ec1a-c49f-4015-9f26-a13fa5840f6a)
